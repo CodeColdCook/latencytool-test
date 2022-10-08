@@ -1,3 +1,4 @@
+# executables
 obj
 latency_cv_wayland
 latency_cv_qt
@@ -9,3 +10,39 @@ latency_v4l_wayland
 latency_v4l_wayland_gl
 latency_v4l_wayland_gbm
 latency_v4l_xcb
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vscode/
+build/
+.cache/
