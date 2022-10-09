@@ -6,7 +6,7 @@
 #include <time.h>
 
 // in [0,1], i.e, what brightness level is the light/dark cutoff
-#define THRESHOLD 0.3
+#define THRESHOLD 0.5
 
 struct state {
     // Readout
