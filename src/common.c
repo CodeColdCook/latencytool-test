@@ -24,7 +24,7 @@ int setup_analysis(struct analysis *a) {
     }
     a->nframes = 0;
     a->fir_head = 0;
-    char *logpath = getenv("LATENCYTOOL_LOG");
+    char *logpath = "./latency_test.txt";
     if (logpath) {
         a->log = fopen(logpath, "w");
     } else {
@@ -87,6 +87,24 @@ static void update_fir(struct analysis *a, double delay, bool now_is_dark) {
             min_tot, mean_tot, std_tot, max_tot, mean_ltd, std_ltd, mean_dtl,
             std_dtl);
     fflush(stdout);
+    // State logging
+    if (a->log) {
+      fprintf(a->log,
+              "delay: %5.2f ms; "
+              "Net: (%5.2f < %5.2f±%4.2f < %5.2f)ms L->D: (%5.2f±%4.2f)ms; "
+              "D->L: (%5.2f±%4.2f)ms\n",
+              delay * 1000,
+              min_tot, mean_tot, std_tot, max_tot, mean_ltd, std_ltd, mean_dtl,
+              std_dtl);
+    }
+
+    // fprintf(stdout,
+    //         "delay: %5.2f ms\n",delay * 1000);
+    // fflush(stdout);
+    // if (a->log) {
+    //   fprintf(a->log,
+    //         "delay: %5.2f ms\n",delay);
+    // }
 }
 
 enum WhatToDo update_analysis(struct analysis *a, struct timespec meas_time,
@@ -122,6 +140,23 @@ enum WhatToDo update_analysis(struct analysis *a, struct timespec meas_time,
 
         // Update the ringbuffer of transition delays
         update_fir(a, delay, is_dark);
+        // for test
+        // if (a->log) {
+        //   fprintf(a->log,
+        //           "---current valus: "
+        //           "msec_gap:  %6.3f ms; "
+        //           "t: %3.2f; "
+        //           "step:  %6.3f ms; "
+        //           "transition_time: %6.3f ms; "
+        //           "hold_time: %6.3f ms; "
+        //           "last_capture_time: %6.3f ms \n",
+        //           nsec_gap / 1000000.0,
+        //           t,
+        //           step / 1000000.0,
+        //           transition_time.tv_sec * 1000.0 + transition_time.tv_nsec / 1000000.0,
+        //           hold_time * 1e6,
+        //           last_capture_time.tv_sec * 1000.0 + last_capture_time.tv_nsec / 1000000.0);
+        // }
     }
 
     // Change at requested time
@@ -134,11 +169,11 @@ enum WhatToDo update_analysis(struct analysis *a, struct timespec meas_time,
     }
 
     // State logging
-    if (a->log) {
-        fprintf(a->log, "%.9f %.3f %d\n",
-                get_delta_nsec(a->setup_time, meas_time) * 1e-9, meas_level,
-                display_transition);
-    }
+    // if (a->log) {
+    //     fprintf(a->log, "%.9f %.3f %d\n",
+    //             get_delta_nsec(a->setup_time, meas_time) * 1e-9, meas_level,
+    //             display_transition);
+    // }
 
 end:
     return a->showing_dark ? DisplayDark : DisplayLight;

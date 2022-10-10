@@ -1,0 +1,153 @@
+delay: 39153531.79 ms; Net: (10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.00 < -1.00±-1.00 < -10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.00)ms L->D: (-1.00±-1.00)ms; D->L: (-1.00±-1.00)ms
+---current valus: msec_gap:  63507504.720 ms; t: 0.62; step:  39153531.789 ms; transition_time: 39153531.789 ms; hold_time: 90411.263 ms; last_capture_time:  0.000 ms 
+delay: 24354004.10 ms; Net: (10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.00 < -1.00±-1.00 < -10000000000000000159028911097599180468360808563945281389781327557747838772170381060813469985856815104.00)ms L->D: (-1.00±-1.00)ms; D->L: (-1.00±-1.00)ms
+---current valus: msec_gap:   6.974 ms; t: 0.56; step:   3.904 ms; transition_time: 63507626.305 ms; hold_time: 63662.976 ms; last_capture_time: 63507622.401 ms 
+delay: 92.75 ms; Net: (92.75 < 92.75±-1.00 < 92.75)ms L->D: (92.75±-1.00)ms; D->L: (-1.00±-1.00)ms
+---current valus: msec_gap:   9.072 ms; t: 0.16; step:   1.481 ms; transition_time: 63507782.719 ms; hold_time: 86985.953 ms; last_capture_time: 63507781.237 ms 
+delay: 76.57 ms; Net: (76.57 < 84.66±-1.00 < 92.75)ms L->D: (92.75±-1.00)ms; D->L: (76.57±-1.00)ms
+---current valus: msec_gap:  12.047 ms; t: 0.22; step:   2.594 ms; transition_time: 63507946.279 ms; hold_time: 87906.402 ms; last_capture_time: 63507943.685 ms 
+delay: 81.63 ms; Net: (76.57 < 83.65±8.28 < 92.75)ms L->D: (87.19±-1.00)ms; D->L: (76.57±-1.00)ms
+---current valus: msec_gap:   8.688 ms; t: 0.40; step:   3.494 ms; transition_time: 63508115.816 ms; hold_time: 94698.841 ms; last_capture_time: 63508112.321 ms 
+delay: 102.93 ms; Net: (76.57 < 88.47±11.77 < 102.93)ms L->D: (87.19±-1.00)ms; D->L: (89.75±-1.00)ms
+---current valus: msec_gap:  25.988 ms; t: 0.89; step:  23.139 ms; transition_time: 63508313.448 ms; hold_time: 51853.082 ms; last_capture_time: 63508290.310 ms 
+delay: 98.81 ms; Net: (76.57 < 90.54±11.20 < 102.93)ms L->D: (91.06±8.72)ms; D->L: (89.75±-1.00)ms
+---current valus: msec_gap:   7.863 ms; t: 0.67; step:   5.280 ms; transition_time: 63508464.115 ms; hold_time: 60113.365 ms; last_capture_time: 63508458.835 ms 
+delay: 93.96 ms; Net: (76.57 < 91.11±10.11 < 102.93)ms L->D: (91.06±8.72)ms; D->L: (91.16±13.40)ms
+---current valus: msec_gap:  17.285 ms; t: 0.39; step:   6.778 ms; transition_time: 63508618.186 ms; hold_time: 86093.776 ms; last_capture_time: 63508611.408 ms 
+delay: 77.63 ms; Net: (76.57 < 89.18±10.54 < 102.93)ms L->D: (87.71±9.78)ms; D->L: (91.16±13.40)ms
+---current valus: msec_gap:  16.062 ms; t: 0.49; step:   7.895 ms; transition_time: 63508781.911 ms; hold_time: 56666.483 ms; last_capture_time: 63508774.017 ms 
+delay: 77.22 ms; Net: (76.57 < 87.69±10.64 < 102.93)ms L->D: (87.71±9.78)ms; D->L: (87.67±12.97)ms
+---current valus: msec_gap:  15.416 ms; t: 0.47; step:   7.244 ms; transition_time: 63508915.798 ms; hold_time: 73238.197 ms; last_capture_time: 63508908.554 ms 
+delay: 97.27 ms; Net: (76.57 < 88.75±10.45 < 102.93)ms L->D: (89.62±9.49)ms; D->L: (87.67±12.97)ms
+---current valus: msec_gap:  17.083 ms; t: 0.58; step:   9.919 ms; transition_time: 63509086.306 ms; hold_time: 68643.823 ms; last_capture_time: 63509076.387 ms 
+delay: 88.01 ms; Net: (76.57 < 88.68±9.86 < 102.93)ms L->D: (89.62±9.49)ms; D->L: (87.74±11.24)ms
+---current valus: msec_gap:  19.154 ms; t: 0.28; step:   5.396 ms; transition_time: 63509242.962 ms; hold_time: 77732.255 ms; last_capture_time: 63509237.566 ms 
+delay: 91.69 ms; Net: (76.57 < 88.95±9.39 < 102.93)ms L->D: (89.96±8.53)ms; D->L: (87.74±11.24)ms
+---current valus: msec_gap:  17.639 ms; t: 0.39; step:   6.910 ms; transition_time: 63509412.387 ms; hold_time: 61887.068 ms; last_capture_time: 63509405.477 ms 
+delay: 104.90 ms; Net: (76.57 < 90.28±10.07 < 104.90)ms L->D: (89.96±8.53)ms; D->L: (90.60±12.25)ms
+---current valus: msec_gap:   9.238 ms; t: 0.33; step:   3.081 ms; transition_time: 63509579.171 ms; hold_time: 70804.055 ms; last_capture_time: 63509576.090 ms 
+delay: 79.85 ms; Net: (76.57 < 89.48±10.07 < 104.90)ms L->D: (88.52±8.68)ms; D->L: (90.60±12.25)ms
+---current valus: msec_gap:  21.166 ms; t: 0.45; step:   9.529 ms; transition_time: 63509729.825 ms; hold_time: 97133.784 ms; last_capture_time: 63509720.296 ms 
+delay: 83.41 ms; Net: (76.57 < 89.05±9.81 < 104.90)ms L->D: (88.52±8.68)ms; D->L: (89.57±11.51)ms
+---current valus: msec_gap:  10.639 ms; t: 0.21; step:   2.261 ms; transition_time: 63509910.371 ms; hold_time: 94971.704 ms; last_capture_time: 63509908.110 ms 
+delay: 73.12 ms; Net: (73.12 < 87.98±10.31 < 104.90)ms L->D: (86.59±9.70)ms; D->L: (89.57±11.51)ms
+---current valus: msec_gap:  15.953 ms; t: 0.48; step:   7.716 ms; transition_time: 63510078.463 ms; hold_time: 78142.704 ms; last_capture_time: 63510070.748 ms 
+delay: 89.00 ms; Net: (73.12 < 88.05±9.96 < 104.90)ms L->D: (86.59±9.70)ms; D->L: (89.50±10.66)ms
+---current valus: msec_gap:  15.586 ms; t: 0.25; step:   3.922 ms; transition_time: 63510245.610 ms; hold_time: 83037.816 ms; last_capture_time: 63510241.688 ms 
+delay: 92.36 ms; Net: (73.12 < 88.30±9.70 < 104.90)ms L->D: (87.24±9.28)ms; D->L: (89.50±10.66)ms
+---current valus: msec_gap:  16.380 ms; t: 0.75; step:  12.222 ms; transition_time: 63510421.013 ms; hold_time: 48496.153 ms; last_capture_time: 63510408.791 ms 
+delay: 80.08 ms; Net: (73.12 < 87.85±9.61 < 104.90)ms L->D: (87.24±9.28)ms; D->L: (88.45±10.45)ms
+---current valus: msec_gap:  15.473 ms; t: 0.59; step:   9.115 ms; transition_time: 63510549.585 ms; hold_time: 76418.133 ms; last_capture_time: 63510540.471 ms 
+delay: 90.38 ms; Net: (73.12 < 87.98±9.35 < 104.90)ms L->D: (87.55±8.80)ms; D->L: (88.45±10.45)ms
+---current valus: msec_gap:  11.926 ms; t: 0.80; step:   9.511 ms; transition_time: 63510716.388 ms; hold_time: 40978.034 ms; last_capture_time: 63510706.877 ms 
+delay: 72.55 ms; Net: (72.55 < 87.21±9.74 < 104.90)ms L->D: (87.55±8.80)ms; D->L: (86.86±11.06)ms
+---current valus: msec_gap:  17.943 ms; t: 0.35; step:   6.359 ms; transition_time: 63510829.919 ms; hold_time: 54573.206 ms; last_capture_time: 63510823.560 ms 
+delay: 86.51 ms; Net: (72.55 < 87.17±9.49 < 104.90)ms L->D: (87.46±8.36)ms; D->L: (86.86±11.06)ms
+---current valus: msec_gap:  13.965 ms; t: 0.86; step:  12.014 ms; transition_time: 63510971.001 ms; hold_time: 48233.895 ms; last_capture_time: 63510958.987 ms 
+delay: 77.73 ms; Net: (72.55 < 86.74±9.48 < 104.90)ms L->D: (87.46±8.36)ms; D->L: (86.03±10.85)ms
+---current valus: msec_gap:  10.886 ms; t: 0.54; step:   5.903 ms; transition_time: 63511096.963 ms; hold_time: 88250.605 ms; last_capture_time: 63511091.059 ms 
+delay: 74.65 ms; Net: (72.55 < 86.22±9.60 < 104.90)ms L->D: (86.39±8.79)ms; D->L: (86.03±10.85)ms
+---current valus: msec_gap:  19.521 ms; t: 0.44; step:   8.602 ms; transition_time: 63511259.863 ms; hold_time: 49400.745 ms; last_capture_time: 63511251.261 ms 
+delay: 109.94 ms; Net: (72.55 < 87.21±10.56 < 109.94)ms L->D: (86.39±8.79)ms; D->L: (88.03±12.44)ms
+---current valus: msec_gap:  11.886 ms; t: 0.45; step:   5.367 ms; transition_time: 63511419.204 ms; hold_time: 64056.664 ms; last_capture_time: 63511413.837 ms 
+delay: 82.11 ms; Net: (72.55 < 87.00±10.39 < 109.94)ms L->D: (86.06±8.49)ms; D->L: (88.03±12.44)ms
+---current valus: msec_gap:  24.539 ms; t: 0.54; step:  13.371 ms; transition_time: 63511565.370 ms; hold_time: 47787.427 ms; last_capture_time: 63511552.000 ms 
+delay: 118.29 ms; Net: (72.55 < 88.21±11.89 < 118.29)ms L->D: (86.06±8.49)ms; D->L: (90.35±14.57)ms
+---current valus: msec_gap:  15.618 ms; t: 0.49; step:   7.592 ms; transition_time: 63511731.446 ms; hold_time: 46528.528 ms; last_capture_time: 63511723.853 ms 
+delay: 90.46 ms; Net: (72.55 < 88.29±11.66 < 118.29)ms L->D: (86.37±8.25)ms; D->L: (90.35±14.57)ms
+---current valus: msec_gap:  15.193 ms; t: 0.58; step:   8.813 ms; transition_time: 63511868.434 ms; hold_time: 99935.471 ms; last_capture_time: 63511859.621 ms 
+delay: 77.07 ms; Net: (72.55 < 87.89±11.64 < 118.29)ms L->D: (86.37±8.25)ms; D->L: (89.40±14.44)ms
+---current valus: msec_gap:  19.108 ms; t: 0.42; step:   7.967 ms; transition_time: 63512045.440 ms; hold_time: 53095.414 ms; last_capture_time: 63512037.473 ms 
+delay: 91.04 ms; Net: (72.55 < 88.00±11.45 < 118.29)ms L->D: (86.69±8.04)ms; D->L: (89.40±14.44)ms
+---current valus: msec_gap:  15.028 ms; t: 0.06; step:   0.903 ms; transition_time: 63512189.579 ms; hold_time: 70775.944 ms; last_capture_time: 63512188.675 ms 
+delay: 104.74 ms; Net: (72.55 < 88.56±11.65 < 118.29)ms L->D: (86.69±8.04)ms; D->L: (90.43±14.47)ms
+---current valus: msec_gap:  12.540 ms; t: 0.35; step:   4.385 ms; transition_time: 63512365.098 ms; hold_time: 90346.734 ms; last_capture_time: 63512360.713 ms 
+delay: 83.46 ms; Net: (72.55 < 88.39±11.50 < 118.29)ms L->D: (86.48±7.81)ms; D->L: (90.43±14.47)ms
+---current valus: msec_gap:  25.970 ms; t: 0.60; step:  15.664 ms; transition_time: 63512538.901 ms; hold_time: 76758.390 ms; last_capture_time: 63512523.238 ms 
+delay: 87.17 ms; Net: (72.55 < 88.35±11.31 < 118.29)ms L->D: (86.48±7.81)ms; D->L: (90.22±14.00)ms
+---current valus: msec_gap:  13.345 ms; t: 0.37; step:   4.957 ms; transition_time: 63512702.831 ms; hold_time: 57761.897 ms; last_capture_time: 63512697.874 ms 
+delay: 88.08 ms; Net: (72.55 < 88.35±11.13 < 118.29)ms L->D: (86.58±7.57)ms; D->L: (90.22±14.00)ms
+---current valus: msec_gap:  16.872 ms; t: 0.71; step:  11.904 ms; transition_time: 63512848.669 ms; hold_time: 78253.136 ms; last_capture_time: 63512836.765 ms 
+delay: 83.65 ms; Net: (72.55 < 88.21±10.99 < 118.29)ms L->D: (86.58±7.57)ms; D->L: (89.84±13.65)ms
+---current valus: msec_gap:  16.298 ms; t: 0.37; step:   6.075 ms; transition_time: 63513010.570 ms; hold_time: 71457.231 ms; last_capture_time: 63513004.494 ms 
+delay: 116.94 ms; Net: (72.55 < 89.03±11.87 < 118.29)ms L->D: (88.26±10.25)ms; D->L: (89.84±13.65)ms
+---current valus: msec_gap:  12.048 ms; t: 0.58; step:   7.034 ms; transition_time: 63513198.968 ms; hold_time: 69614.979 ms; last_capture_time: 63513191.934 ms 
+delay: 90.30 ms; Net: (72.55 < 89.06±11.70 < 118.29)ms L->D: (88.26±10.25)ms; D->L: (89.86±13.24)ms
+---current valus: msec_gap:  18.734 ms; t: 0.49; step:   9.212 ms; transition_time: 63513358.881 ms; hold_time: 98366.501 ms; last_capture_time: 63513349.669 ms 
+delay: 86.08 ms; Net: (72.55 < 88.98±11.55 < 118.29)ms L->D: (88.15±9.98)ms; D->L: (89.86±13.24)ms
+---current valus: msec_gap:  29.627 ms; t: 0.77; step:  22.813 ms; transition_time: 63513543.330 ms; hold_time: 57551.007 ms; last_capture_time: 63513520.518 ms 
+delay: 77.25 ms; Net: (72.55 < 88.67±11.55 < 118.29)ms L->D: (88.15±9.98)ms; D->L: (89.20±13.19)ms
+---current valus: msec_gap:  24.706 ms; t: 0.48; step:  11.945 ms; transition_time: 63513678.133 ms; hold_time: 86281.462 ms; last_capture_time: 63513666.188 ms 
+delay: 83.07 ms; Net: (72.55 < 88.53±11.43 < 118.29)ms L->D: (87.90±9.78)ms; D->L: (89.20±13.19)ms
+---current valus: msec_gap:  13.193 ms; t: 0.60; step:   7.966 ms; transition_time: 63513847.483 ms; hold_time: 71604.699 ms; last_capture_time: 63513839.517 ms 
+delay: 96.57 ms; Net: (72.55 < 88.73±11.35 < 118.29)ms L->D: (87.90±9.78)ms; D->L: (89.57±12.94)ms
+---current valus: msec_gap:  21.201 ms; t: 0.79; step:  16.684 ms; transition_time: 63514015.661 ms; hold_time: 86194.830 ms; last_capture_time: 63513998.977 ms 
+delay: 77.11 ms; Net: (72.55 < 88.45±11.36 < 118.29)ms L->D: (87.38±9.82)ms; D->L: (89.57±12.94)ms
+---current valus: msec_gap:  17.696 ms; t: 0.54; step:   9.631 ms; transition_time: 63514178.965 ms; hold_time: 64013.717 ms; last_capture_time: 63514169.333 ms 
+delay: 85.84 ms; Net: (72.55 < 88.39±11.22 < 118.29)ms L->D: (87.38±9.82)ms; D->L: (89.39±12.64)ms
+---current valus: msec_gap:  23.704 ms; t: 0.48; step:  11.342 ms; transition_time: 63514328.817 ms; hold_time: 93491.767 ms; last_capture_time: 63514317.475 ms 
+delay: 88.93 ms; Net: (72.55 < 88.40±11.09 < 118.29)ms L->D: (87.45±9.58)ms; D->L: (89.39±12.64)ms
+---current valus: msec_gap:  14.825 ms; t: 0.52; step:   7.651 ms; transition_time: 63514511.243 ms; hold_time: 56998.885 ms; last_capture_time: 63514503.592 ms 
+delay: 91.30 ms; Net: (72.55 < 88.46±10.97 < 118.29)ms L->D: (87.45±9.58)ms; D->L: (89.48±12.34)ms
+---current valus: msec_gap:  21.046 ms; t: 0.52; step:  10.937 ms; transition_time: 63514659.542 ms; hold_time: 61147.501 ms; last_capture_time: 63514648.605 ms 
+delay: 82.12 ms; Net: (72.55 < 88.32±10.89 < 118.29)ms L->D: (87.22±9.43)ms; D->L: (89.48±12.34)ms
+---current valus: msec_gap:  23.934 ms; t: 0.04; step:   1.010 ms; transition_time: 63514802.810 ms; hold_time: 88463.471 ms; last_capture_time: 63514801.799 ms 
+delay: 89.05 ms; Net: (72.55 < 88.34±10.76 < 118.29)ms L->D: (87.22±9.43)ms; D->L: (89.46±12.06)ms
+---current valus: msec_gap:  11.860 ms; t: 0.31; step:   3.660 ms; transition_time: 63514980.327 ms; hold_time: 95141.588 ms; last_capture_time: 63514976.667 ms 
+delay: 89.52 ms; Net: (72.55 < 88.36±10.65 < 118.29)ms L->D: (87.32±9.23)ms; D->L: (89.46±12.06)ms
+---current valus: msec_gap:  19.776 ms; t: 0.56; step:  10.993 ms; transition_time: 63515164.990 ms; hold_time: 44185.317 ms; last_capture_time: 63515153.997 ms 
+delay: 117.40 ms; Net: (72.55 < 88.97±11.34 < 118.29)ms L->D: (87.32±9.23)ms; D->L: (90.62±13.10)ms
+---current valus: msec_gap:  18.594 ms; t: 0.11; step:   1.991 ms; transition_time: 63515326.573 ms; hold_time: 96959.625 ms; last_capture_time: 63515324.583 ms 
+delay: 101.70 ms; Net: (72.55 < 89.23±11.36 < 118.29)ms L->D: (87.89±9.49)ms; D->L: (90.62±13.10)ms
+---current valus: msec_gap:  18.944 ms; t: 0.25; step:   4.763 ms; transition_time: 63515525.236 ms; hold_time: 71559.721 ms; last_capture_time: 63515520.472 ms 
+delay: 84.53 ms; Net: (72.55 < 89.14±11.27 < 118.29)ms L->D: (87.89±9.49)ms; D->L: (90.38±12.88)ms
+---current valus: msec_gap:  19.706 ms; t: 0.57; step:  11.230 ms; transition_time: 63515681.324 ms; hold_time: 45163.351 ms; last_capture_time: 63515670.095 ms 
+delay: 91.97 ms; Net: (72.55 < 89.19±11.16 < 118.29)ms L->D: (88.05±9.33)ms; D->L: (90.38±12.88)ms
+---current valus: msec_gap:  16.139 ms; t: 0.11; step:   1.725 ms; transition_time: 63515818.458 ms; hold_time: 51532.831 ms; last_capture_time: 63515816.733 ms 
+delay: 97.10 ms; Net: (72.55 < 89.34±11.11 < 118.29)ms L->D: (88.05±9.33)ms; D->L: (90.64±12.69)ms
+---current valus: msec_gap:  12.716 ms; t: 0.68; step:   8.631 ms; transition_time: 63515967.093 ms; hold_time: 79793.616 ms; last_capture_time: 63515958.462 ms 
+delay: 86.77 ms; Net: (72.55 < 89.29±11.00 < 118.29)ms L->D: (88.00±9.15)ms; D->L: (90.64±12.69)ms
+---current valus: msec_gap:  15.273 ms; t: 0.77; step:  11.720 ms; transition_time: 63516133.658 ms; hold_time: 93413.956 ms; last_capture_time: 63516121.937 ms 
+delay: 67.89 ms; Net: (67.89 < 88.90±11.28 < 118.29)ms L->D: (88.00±9.15)ms; D->L: (89.80±13.19)ms
+---current valus: msec_gap:  11.389 ms; t: 0.64; step:   7.297 ms; transition_time: 63516294.965 ms; hold_time: 60933.576 ms; last_capture_time: 63516287.668 ms 
+delay: 88.46 ms; Net: (67.89 < 88.89±11.18 < 118.29)ms L->D: (88.02±8.98)ms; D->L: (89.80±13.19)ms
+---current valus: msec_gap:  15.397 ms; t: 0.81; step:  12.409 ms; transition_time: 63516444.355 ms; hold_time: 43850.279 ms; last_capture_time: 63516431.946 ms 
+delay: 90.57 ms; Net: (67.89 < 88.92±11.08 < 118.29)ms L->D: (88.02±8.98)ms; D->L: (89.82±12.95)ms
+---current valus: msec_gap:   9.510 ms; t: 0.83; step:   7.921 ms; transition_time: 63516578.780 ms; hold_time: 41201.383 ms; last_capture_time: 63516570.859 ms 
+delay: 92.36 ms; Net: (67.89 < 88.98±10.99 < 118.29)ms L->D: (88.17±8.86)ms; D->L: (89.82±12.95)ms
+---current valus: msec_gap:  16.651 ms; t: 0.23; step:   3.870 ms; transition_time: 63516712.347 ms; hold_time: 67462.104 ms; last_capture_time: 63516708.477 ms 
+delay: 65.63 ms; Net: (65.63 < 88.58±11.31 < 118.29)ms L->D: (88.17±8.86)ms; D->L: (88.99±13.48)ms
+---current valus: msec_gap:  15.531 ms; t: 0.71; step:  10.977 ms; transition_time: 63516845.436 ms; hold_time: 43785.750 ms; last_capture_time: 63516834.459 ms 
+delay: 97.81 ms; Net: (65.63 < 88.73±11.28 < 118.29)ms L->D: (88.49±8.88)ms; D->L: (88.99±13.48)ms
+---current valus: msec_gap:  22.026 ms; t: 0.97; step:  21.319 ms; transition_time: 63516987.031 ms; hold_time: 54296.797 ms; last_capture_time: 63516965.712 ms 
+delay: 88.51 ms; Net: (65.63 < 88.73±11.18 < 118.29)ms L->D: (88.49±8.88)ms; D->L: (88.97±13.25)ms
+---current valus: msec_gap:  17.960 ms; t: 0.71; step:  12.665 ms; transition_time: 63517129.834 ms; hold_time: 98238.048 ms; last_capture_time: 63517117.169 ms 
+delay: 85.44 ms; Net: (65.63 < 88.68±11.10 < 118.29)ms L->D: (88.39±8.75)ms; D->L: (88.97±13.25)ms
+---current valus: msec_gap:   9.379 ms; t: 0.55; step:   5.201 ms; transition_time: 63517313.507 ms; hold_time: 94132.484 ms; last_capture_time: 63517308.307 ms 
+delay: 85.32 ms; Net: (65.63 < 88.62±11.02 < 118.29)ms L->D: (88.39±8.75)ms; D->L: (88.85±13.04)ms
+---current valus: msec_gap:  11.783 ms; t: 0.63; step:   7.459 ms; transition_time: 63517492.958 ms; hold_time: 91055.187 ms; last_capture_time: 63517485.499 ms 
+delay: 98.12 ms; Net: (65.63 < 88.77±10.99 < 118.29)ms L->D: (88.69±8.77)ms; D->L: (88.85±13.04)ms
+---current valus: msec_gap:  21.924 ms; t: 0.64; step:  14.045 ms; transition_time: 63517682.131 ms; hold_time: 55999.945 ms; last_capture_time: 63517668.086 ms 
+delay: 93.01 ms; Net: (65.63 < 88.84±10.92 < 118.29)ms L->D: (88.69±8.77)ms; D->L: (88.98±12.85)ms
+---current valus: msec_gap:  18.326 ms; t: 0.80; step:  14.737 ms; transition_time: 63517831.144 ms; hold_time: 72385.620 ms; last_capture_time: 63517816.407 ms 
+delay: 89.52 ms; Net: (65.63 < 88.85±10.83 < 118.29)ms L->D: (88.72±8.64)ms; D->L: (88.98±12.85)ms
+---current valus: msec_gap:  16.954 ms; t: 0.75; step:  12.760 ms; transition_time: 63517993.046 ms; hold_time: 62512.419 ms; last_capture_time: 63517980.286 ms 
+delay: 89.62 ms; Net: (65.63 < 88.86±10.75 < 118.29)ms L->D: (88.72±8.64)ms; D->L: (89.00±12.65)ms
+---current valus: msec_gap:  18.749 ms; t: 0.81; step:  15.273 ms; transition_time: 63518145.178 ms; hold_time: 85614.924 ms; last_capture_time: 63518129.905 ms 
+delay: 87.30 ms; Net: (65.63 < 88.84±10.67 < 118.29)ms L->D: (88.68±8.51)ms; D->L: (89.00±12.65)ms
+---current valus: msec_gap:   4.881 ms; t: 0.75; step:   3.642 ms; transition_time: 63518318.089 ms; hold_time: 70752.122 ms; last_capture_time: 63518314.447 ms 
+delay: 89.42 ms; Net: (65.63 < 88.85±10.59 < 118.29)ms L->D: (88.68±8.51)ms; D->L: (89.02±12.46)ms
+---current valus: msec_gap:  19.737 ms; t: 0.64; step:  12.694 ms; transition_time: 63518478.256 ms; hold_time: 80063.426 ms; last_capture_time: 63518465.563 ms 
+delay: 90.85 ms; Net: (65.63 < 88.88±10.51 < 118.29)ms L->D: (88.74±8.39)ms; D->L: (89.02±12.46)ms
+---current valus: msec_gap:   8.662 ms; t: 0.79; step:   6.858 ms; transition_time: 63518649.170 ms; hold_time: 71896.386 ms; last_capture_time: 63518642.312 ms 
+delay: 89.21 ms; Net: (65.63 < 88.88±10.44 < 118.29)ms L->D: (88.74±8.39)ms; D->L: (89.02±12.27)ms
+---current valus: msec_gap:  15.037 ms; t: 0.75; step:  11.344 ms; transition_time: 63518810.280 ms; hold_time: 42356.821 ms; last_capture_time: 63518798.935 ms 
+delay: 99.98 ms; Net: (65.63 < 89.04±10.45 < 118.29)ms L->D: (89.05±8.48)ms; D->L: (89.02±12.27)ms
+---current valus: msec_gap:  15.682 ms; t: 0.20; step:   3.141 ms; transition_time: 63518952.613 ms; hold_time: 66258.256 ms; last_capture_time: 63518949.473 ms 
+delay: 89.76 ms; Net: (65.63 < 89.05±10.37 < 118.29)ms L->D: (89.05±8.48)ms; D->L: (89.04±12.10)ms
+---current valus: msec_gap:  17.299 ms; t: 0.74; step:  12.807 ms; transition_time: 63519108.633 ms; hold_time: 95910.103 ms; last_capture_time: 63519095.826 ms 
+delay: 73.94 ms; Net: (65.63 < 88.84±10.45 < 118.29)ms L->D: (88.64±8.72)ms; D->L: (89.04±12.10)ms
+---current valus: msec_gap:  15.217 ms; t: 0.91; step:  13.897 ms; transition_time: 63519278.482 ms; hold_time: 95848.588 ms; last_capture_time: 63519264.585 ms 
+delay: 66.72 ms; Net: (65.63 < 88.54±10.69 < 118.29)ms L->D: (88.64±8.72)ms; D->L: (88.44±12.48)ms
+---current valus: msec_gap:  15.661 ms; t: 0.68; step:  10.637 ms; transition_time: 63519441.049 ms; hold_time: 83257.141 ms; last_capture_time: 63519430.411 ms 
+d
