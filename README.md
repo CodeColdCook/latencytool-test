@@ -67,33 +67,3 @@ Current requirements are:
 * Linux (for the framebuffer frontend, and the V4L backend)
 
 To compile, run `make`.
-
-# Run 
-
-1. Checkout the camera capturer, change to your pipeline and capture method in `src/backend_opencv.cpp`
-
-2. Checkout the log path and output data that you need in `src/common.c`
-
-3. Make
-
-   ```shell
-   cd latencytool-test
-   mkdir build && cd build
-   cmake ..
-   make -j
-   ```
-
-4. Run 
-
-   - Ensure the camera is open
-   - Ensure the camera twords to your monitor, do not let reflected light  influences your backend's grayscale detection
-
-   ```shell
-   ./latency_cv_term 0
-   ```
-
-5. Log
-
-   Default log file is in the current path you exec
-
-   

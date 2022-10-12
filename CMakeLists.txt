@@ -51,6 +51,12 @@ find_package(
   COMPONENTS Core Gui Widgets
   REQUIRED)
 
+find_package(jetson-utils REQUIRED)
+find_package(jetson-inference REQUIRED)
+
+find_package(CUDA REQUIRED)
+link_directories(/usr/lib/aarch64-linux-gnu/tegra)
+
 # -----------------#
 # Zetton libraries #
 # -----------------#
@@ -135,6 +141,19 @@ function(add_latency_tester)
   target_link_libraries(${LATENCY_EXEC_NAME} PUBLIC ${LATENCY_EXEC_DEPS})
 endfunction()
 
+function(add_latency_jetson_tester)
+  cmake_parse_arguments(LATENCY_EXEC "" "NAME" "SRCS;INCLUDES;DEPS" ${ARGN})
+  add_executable(${LATENCY_EXEC_NAME} ${LATENCY_EXEC_SRCS})
+  target_include_directories(
+    ${LATENCY_EXEC_NAME}
+    PUBLIC "$<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}>"
+           "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
+           "$<INSTALL_INTERFACE:$<INSTALL_PREFIX>/include>"
+           ${LATENCY_EXEC_INCLUDES}
+           ${CUDA_INCLUDE_DIRS})
+  target_link_libraries(${LATENCY_EXEC_NAME} PUBLIC ${LATENCY_EXEC_DEPS} jetson-inference)
+endfunction()
+
 add_latency_tester(
   NAME
   latency_cv_term
@@ -176,6 +195,19 @@ add_latency_tester(
   Qt5::Core
   Qt5::Gui
   Qt5::Widgets)
+
+add_latency_jetson_tester(
+  NAME
+  latency_cuda_term
+  SRCS
+  ${PROJECT_SOURCE_DIR}/src/frontend_term.c
+  ${PROJECT_SOURCE_DIR}/src/backend_cuda.cpp
+  ${PROJECT_SOURCE_DIR}/src/image_converter.cpp
+  INCLUDES
+  ${OpenCV_INCLUDE_DIRS}
+  DEPS
+  ${PROJECT_NAME}
+  ${OpenCV_LIBS})
 
 # -------------#
 # Test targets #

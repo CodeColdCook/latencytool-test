@@ -1,0 +1,83 @@
+#pragma once
+
+#include <jetson-utils/cudaUtility.h>
+#include <jetson-utils/imageFormat.h>
+#include <opencv4/opencv2/imgproc.hpp>
+#include <opencv4/opencv2/imgcodecs.hpp>
+
+/**
+ * GPU image conversion
+ */
+class imageConverter
+{
+public:
+	/**
+	 * Output image pixel type
+	 */
+	typedef uchar3 PixelType;
+
+	/**
+	 * Image format used for internal CUDA processing
+	 */
+	static const imageFormat InternalFormat = IMAGE_RGB8;
+
+
+  	/**
+	 * Image format used for outputting CV image messages
+	 */
+	static const imageFormat CVOutputFormat = IMAGE_BGR8;
+
+	/**
+	 * Constructor
+	 */
+	imageConverter();
+
+	/**
+	 * Destructor
+	 */
+	~imageConverter();
+
+	/**
+	 * Free the memory
+	 */
+	void Free();
+
+  /**
+	 * Convert to cv::Mat
+	 */
+  bool Convert(cv::Mat &cvImg, imageFormat format, PixelType *imageGPU);
+
+  /**
+	 * Resize the memory (if necessary)
+	 */
+	bool Resize( uint32_t width, uint32_t height, imageFormat inputFormat );
+
+	/**
+	 * Retrieve the converted image width
+	 */
+	inline uint32_t GetWidth() const		{ return mWidth; }
+
+	/**
+	 * Retrieve the converted image height
+	 */
+	inline uint32_t GetHeight() const		{ return mHeight; }
+
+	/**
+	 * Retrieve the GPU pointer of the converted image
+	 */
+	inline PixelType* ImageGPU() const		{ return mOutputGPU; }
+
+private:
+
+	uint32_t mWidth;
+	uint32_t mHeight;	
+	size_t   mSizeInput;
+	size_t   mSizeOutput;
+
+	void* mInputCPU;
+	void* mInputGPU;
+
+	PixelType* mOutputCPU;
+	PixelType* mOutputGPU;
+};
+

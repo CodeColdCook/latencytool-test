@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <opencv4/opencv2/imgcodecs.hpp>
 
 // in [0,1], i.e, what brightness level is the light/dark cutoff
 #define THRESHOLD 0.5
@@ -30,12 +31,12 @@ std::string gstreamer_pipeline()
 static void *isetup(int camera)
 {
   struct state *s = new struct state;
-  // s->cap = new cv::VideoCapture(camera, cv::CAP_V4L);
-  std::string pipeline = gstreamer_pipeline();
-  s->cap = new cv::VideoCapture(pipeline, cv::CAP_GSTREAMER);
+  s->cap = new cv::VideoCapture(camera, cv::CAP_V4L);
+  // std::string pipeline = gstreamer_pipeline();
+  // s->cap = new cv::VideoCapture(pipeline, cv::CAP_GSTREAMER);
   if (!s->cap->isOpened())
   {
-    fprintf(stdout, "Camera #%d loaded with backend '%s' failed\n");
+    fprintf(stdout, "Camera loaded with backend failed\n");
     delete s->cap;
     delete s;
     return NULL;
@@ -46,19 +47,19 @@ static void *isetup(int camera)
 
   // V4L will typically select for the combination closest to this.
   // This gives us the fastest / lowest resolution result.
-  // bool w1 = s->cap->set(cv::CAP_PROP_FRAME_WIDTH, 1.);
-  // bool w2 = s->cap->set(cv::CAP_PROP_FRAME_HEIGHT, 1.);
-  // bool w3 = s->cap->set(cv::CAP_PROP_FPS, 1000.);
-  // fprintf(stderr, "Can set? Width %c Height %c Fps %c\n", w1 ? 'Y' : 'n',
-  //         w2 ? 'Y' : 'n', w3 ? 'Y' : 'n');
+  bool w1 = s->cap->set(cv::CAP_PROP_FRAME_WIDTH, 1.);
+  bool w2 = s->cap->set(cv::CAP_PROP_FRAME_HEIGHT, 1.);
+  bool w3 = s->cap->set(cv::CAP_PROP_FPS, 1000.);
+  fprintf(stderr, "Can set? Width %c Height %c Fps %c\n", w1 ? 'Y' : 'n',
+          w2 ? 'Y' : 'n', w3 ? 'Y' : 'n');
 
   // We disable all automatic correction effects. While these may be helpful
   // getting a decent picture, alternating black-and-white images will only
   // confuse the predictor
-  // bool w4 = s->cap->set(cv::CAP_PROP_AUTO_EXPOSURE, 0.);
-  // bool w5 = s->cap->set(cv::CAP_PROP_AUTO_WB, 0.);
-  // fprintf(stderr, "Can set? Auto exposure %c Auto whitebalance %c\n",
-  //         w4 ? 'Y' : 'n', w5 ? 'Y' : 'n');
+  bool w4 = s->cap->set(cv::CAP_PROP_AUTO_EXPOSURE, 0.);
+  bool w5 = s->cap->set(cv::CAP_PROP_AUTO_WB, 0.);
+  fprintf(stderr, "Can set? Auto exposure %c Auto whitebalance %c\n",
+          w4 ? 'Y' : 'n', w5 ? 'Y' : 'n');
   fprintf(stderr,
           "Be sure to check `v4l2-ctl -d %d -l` and disable auto gain\n",
           camera);
@@ -103,7 +104,8 @@ extern "C"
     // had zero cost.
     struct timespec capture_time;
     clock_gettime(CLOCK_MONOTONIC, &capture_time);
-
+//    cv::imshow("test", s->bgrframe);
+ //   cv::waitKey(1);
     cv::cvtColor(s->bgrframe, s->graylevel, cv::COLOR_BGR2GRAY);
     double level = cv::mean(s->graylevel)[0] / 255.0;
 

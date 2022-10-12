@@ -141,22 +141,22 @@ enum WhatToDo update_analysis(struct analysis *a, struct timespec meas_time,
         // Update the ringbuffer of transition delays
         update_fir(a, delay, is_dark);
         // for test
-        // if (a->log) {
-        //   fprintf(a->log,
-        //           "---current valus: "
-        //           "msec_gap:  %6.3f ms; "
-        //           "t: %3.2f; "
-        //           "step:  %6.3f ms; "
-        //           "transition_time: %6.3f ms; "
-        //           "hold_time: %6.3f ms; "
-        //           "last_capture_time: %6.3f ms \n",
-        //           nsec_gap / 1000000.0,
-        //           t,
-        //           step / 1000000.0,
-        //           transition_time.tv_sec * 1000.0 + transition_time.tv_nsec / 1000000.0,
-        //           hold_time * 1e6,
-        //           last_capture_time.tv_sec * 1000.0 + last_capture_time.tv_nsec / 1000000.0);
-        // }
+        if (a->log) {
+          fprintf(a->log,
+                  "---current valus: "
+                  "msec_gap:  %6.3f ms; "
+                  "t: %3.2f; "
+                  "step:  %6.3f ms; "
+                  "transition_time: %6.3f ms; "
+                  "hold_time: %6.3f ms; "
+                  "last_capture_time: %6.3f ms \n",
+                  nsec_gap / 1000000.0,
+                  t,
+                  step / 1000000.0,
+                  transition_time.tv_sec * 1000.0 + transition_time.tv_nsec / 1000000.0,
+                  hold_time * 1e6,
+                  last_capture_time.tv_sec * 1000.0 + last_capture_time.tv_nsec / 1000000.0);
+        }
     }
 
     // Change at requested time
